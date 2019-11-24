@@ -1,9 +1,11 @@
 [package]
-name = "safe-lateinit"
+name = "non-cuncurrent-lateinit"
 version = "0.1.0"
+description = """
+Implementation of late initialization in non-cuncurrent enviroment
+"""
+repository = "https://github.com/integrer/safe-lateinit"
+license = "Apache-2.0"
 authors = ["Nikita Bibik <osbib2@gmail.com>"]
 edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
+categories = ["data-structures"]
